@@ -5,7 +5,14 @@ body {
 .logo {
     width: 30%;
     height: auto;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin:auto;
     display: block;
+}
+
+h2 {
+    color: #dcc1e6;
+}
+
+h3 {
+    color: #b99fc2;
 }
