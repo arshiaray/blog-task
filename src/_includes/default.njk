@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Arshia's Portfolio</title>
 </head>
 <body>
-    <img src="images/arshias-portfolio-high-resolution-logo-transparent.png" class="logo">
+    <header>
+    <img src="/images/arshias-portfolio-high-resolution-logo-transparent.png" class="logo">
+
+    <nav class="flex-container">
     <h3>Please select where you would like to go:</h3>
     <ul>
-        <li><a href="index">Home</a></li>
-        <li><a href="about-me">About Me</a></li>
+        <li><a href="/index">Home</a></li>
+        <li><a href="/about-me">About Me</a></li>
     </ul>
+    </nav>
+
+    </header>
+
     {{content | safe}}
 </body>
 </html>

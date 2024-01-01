@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
     // Set custom directories for input, output, includes, and data
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("fonts");
     return {
       
       passthroughFileCopy: true,

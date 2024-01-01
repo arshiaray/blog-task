@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Ubuntu Regular';
+    src: url('/fonts/Ubuntu/Ubuntu-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'Ubuntu Light';
+    src: url('/fonts/Ubuntu/Ubuntu-Light.ttf')
+}
 body {
     background-color: #463085;
 }
@@ -11,8 +21,18 @@ body {
 
 h2 {
     color: #dcc1e6;
+    font-family: 'Ubuntu Regular';
 }
 
 h3 {
     color: #b99fc2;
+    font-family: 'Ubuntu Regular';
+}
+
+li {
+    font-family: 'Ubuntu Regular';
+}
+
+p {
+    font-family: 'Ubuntu Light';
 }
