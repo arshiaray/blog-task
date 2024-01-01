@@ -35,7 +35,7 @@ li {
 
 p {
     font-family: 'Ubuntu Light';
-    color: #9279a8;
+    color: #b9adc4;
 }
 
 a:link {
@@ -43,13 +43,14 @@ a:link {
 }
 
 a:visited {
-    color: #9e6dc9;
+    color:#9a80b0;
+
 }
 
 a:hover {
-    color:#b99fc2;
+    color: #785c91;
 }
 
 a:active {
-    color:#463085;
+    color: #5b4370;
 }
