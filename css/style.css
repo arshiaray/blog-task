@@ -33,7 +33,7 @@ li {
     font-family: 'Ubuntu Regular';
 }
 
-p {
+p, label {
     font-family: 'Ubuntu Light';
     color: #b9adc4;
 }
@@ -53,4 +53,10 @@ a:hover {
 
 a:active {
     color: #5b4370;
+}
+
+.navbar {
+    background-color: #66428a;
+    margin-top:2%;
+    margin-bottom: 2%;
 }
