@@ -71,7 +71,8 @@ a:active {
 }
 
 .full-name {
-    display: inline-block;
+    display: inline-flex;
+
 }
 
 .email {
@@ -94,4 +95,16 @@ a:active {
 
 input {
     font-family: 'Ubuntu Light';
+}
+
+button {
+    font-family: 'Ubuntu Light';
+}
+
+.first-name-label {
+    display:block;
+}
+
+.last-name-label {
+    display:block;
 }
