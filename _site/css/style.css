@@ -60,3 +60,38 @@ a:active {
     margin-top:2%;
     margin-bottom: 2%;
 }
+
+.message-form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: auto; 
+    
+}
+
+.full-name {
+    display: inline-block;
+}
+
+.email {
+    display:block;
+}
+
+.message {
+    display: block;
+}
+
+.email-input {
+    width: 100%;
+}
+
+.message-input {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 3%;
+}
+
+input {
+    font-family: 'Ubuntu Light';
+}
