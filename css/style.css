@@ -108,3 +108,8 @@ button {
 .last-name-label {
     display:block;
 }
+
+.class-button {
+    background-color: #613670;
+    border-color: #613670;
+}
