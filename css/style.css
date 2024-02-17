@@ -113,3 +113,7 @@ button {
     background-color: #613670;
     border-color: #613670;
 }
+
+.card-text {
+    color: #613670;
+}
